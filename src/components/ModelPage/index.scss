@@ -1,0 +1,14 @@
+.index {
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 750px;
+  z-index: 999;
+  background-color: rgba(0,0,0,0.5);
+  opacity:1;
+}
+
+.inner{
+  position: fixed;
+  z-index: 999;
+}
