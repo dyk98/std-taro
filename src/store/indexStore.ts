@@ -1,5 +1,5 @@
 import { observable, action } from 'mobx'
-import { userLogin } from '../apis/index/api'
+import { login } from '../services/appService'
 
 class indexStore {
 
@@ -11,8 +11,9 @@ class indexStore {
     this.num++
   }
 
-  public async userLogin(data) {
-    await userLogin(data)
+  @action.bound
+  public userLogin(data) {
+    login(data)
   }
 
 }
