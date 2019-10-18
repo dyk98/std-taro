@@ -10,3 +10,5 @@ npm: `npm install -g @tarojs/cli@1.2.8`
 cnpm: `cnpm install -g @tarojs/cli@1.2.8`
 
 yarn: `yarn global add @tarojs/cli@1.2.8`
+
+详细文档地址：https://www.yuque.com/docs/share/74e27fb7-eda1-4891-b815-053f0b54b5f0#
