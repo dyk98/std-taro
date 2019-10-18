@@ -1,7 +1,7 @@
 import Taro, {Component} from '@tarojs/taro'
 import {View} from '@tarojs/components'
 import {observer} from '@tarojs/mobx'
-import {getWindowsHeight} from '../../utils/tools';
+import {getWindowsHeight} from '../../../utils/tools';
 import './index.scss'
 
 interface IGoodsListProps {
