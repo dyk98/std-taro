@@ -5,8 +5,8 @@
 
 全局安装taro/cli1.2.8 
 
-npm: npm install -g @tarojs/cli@1.2.8
+npm: `npm install -g @tarojs/cli@1.2.8`
 
-cnpm: cnpm install -g @tarojs/cli@1.2.8
+cnpm: `cnpm install -g @tarojs/cli@1.2.8`
 
-yarn: yarn global add @tarojs/cli@1.2.8
+yarn: `yarn global add @tarojs/cli@1.2.8`
