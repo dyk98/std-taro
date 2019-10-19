@@ -1,4 +1,4 @@
-import appStore from '../store/appStore'
+import appStore from '../stores/appStore'
 
 export const apiToken = appStore.apiToken;
 
