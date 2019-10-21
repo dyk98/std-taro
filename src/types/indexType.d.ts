@@ -1,3 +1,3 @@
-export type numObj = {
+export interface INumObj {
   num: number;
 }

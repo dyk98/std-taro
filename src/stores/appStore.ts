@@ -1,6 +1,6 @@
 import { observable, action } from 'mobx'
 import { userLogin } from '../apis/index/api'
-import { user } from '../types/userType'
+import { IUser } from '../types/userType'
 import { card } from '../common/types/cardType'
 
 class appStore {
@@ -9,7 +9,7 @@ class appStore {
   public apiToken: string = '';
 
   @observable
-  public user: user = {
+  public user: IUser = {
     username: 'qqq',
     password: 'pass'
   };

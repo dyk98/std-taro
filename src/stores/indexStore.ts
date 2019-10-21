@@ -1,6 +1,6 @@
 import { observable, action } from 'mobx'
 import { login } from '../services/appService'
-import { numObj } from '../types/indexType'
+import { INumObj } from '../types/indexType'
 import { card } from '../common/types/cardType'
 
 
@@ -16,7 +16,7 @@ class indexStore {
   };
 
   @observable
-  public numObj: numObj = {
+  public numObj: INumObj = {
     num: 1
   };
 

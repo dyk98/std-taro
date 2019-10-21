@@ -1,4 +1,4 @@
-export type user = {
+export interface IUser {
   username: string;
   password: string;
 }
