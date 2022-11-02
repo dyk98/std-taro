@@ -26,7 +26,7 @@
     "@tarojs/mobx": "1.2.8",
     "@tarojs/mobx-h5": "1.2.8",
     "@tarojs/mobx-rn": "1.2.8",
-    "@tarojs/rn-runner": "1.2.8",
+    "@tarojs/rn-runner": "3.5.7",
     "@tarojs/router": "1.2.8",
     "@tarojs/taro": "1.2.8",
     "@tarojs/taro-alipay": "1.2.8",
